@@ -1,27 +1,216 @@
-# Satellite-Image-Classification
-Satellite-Image-Classification is a machine learning project focused on classifying satellite imagery into agricultural and non-agricultural land categories. The project demonstrates the complete workflow from dataset acquisition and preprocessing to image loading, transformation, and preparation for model training.
-Using NumPy and Matplotlib for image processing, this repository builds a structured data pipeline suitable for computer vision tasks such as land-use classification and remote sensing analysis. The project is designed as a foundational step toward implementing deep learning models (e.g., CNNs) for automated satellite image classification.
+🌍 Satellite Image Classification
+Comparative Deep Learning Study Using CNNs and Vision Transformers (Keras & PyTorch)
 
-🔎 Key Features
+This repository presents a comprehensive deep learning framework for satellite image classification, implementing and evaluating models in both Keras (TensorFlow) and PyTorch.
 
-Automated dataset download and extraction
+The project explores:
 
-Organized directory-based class labeling
+✅ CNN-based architectures
 
-Image loading and preprocessing using NumPy
+✅ Vision Transformers (ViT)
 
-Conversion of image data into structured arrays
+✅ Cross-framework implementation (Keras vs PyTorch)
 
-Ready-to-extend pipeline for CNN or deep learning integration
+✅ Training pipelines
 
-🎯 Applications
+✅ Evaluation metrics & comparative analysis
 
-Land-use classification
+📂 Repository Structure
+Satellite-Image-Classification/
+│
+├── Satellite-Image-Classification- Keras.ipynb
+├── Satellite-Image-Classification- Train- Keras.ipynb
+├── Satellite-Image-Classification- Vision Transformers Using Keras.ipynb
+│
+├── Satellite-Image-Classification- Pytorch.ipynb
+├── Satellite-Image-Classification- Train- Pytorch.ipynb
+├── Satellite-Image-Classification- Vision Transformers Using PyTorch.ipynb
+│
+├── CNN-Transformer Integration evaluation- ViT Model Evaluation.ipynb
+├── Satellite-Image-Classification- Comparative Analysis of Keras and PyTorch Models.ipynb
+│
+└── README.md
+🚀 Project Overview
 
-Agricultural monitoring
+Satellite imagery classification plays a critical role in:
 
-Environmental analysis
+Land-use detection
 
-Remote sensing research
+Urban planning
 
-Computer vision learning projects
+Environmental monitoring
+
+Agricultural analysis
+
+This project compares traditional CNN-based architectures with modern Vision Transformers (ViT) to evaluate:
+
+Accuracy
+
+Generalization
+
+Computational performance
+
+Framework efficiency
+
+🧠 Implemented Models
+🔹 CNN-Based Models
+
+Built in both Keras and PyTorch
+
+Standard convolutional architecture
+
+Cross-entropy loss
+
+Softmax classification
+
+🔹 Vision Transformer (ViT)
+
+Patch embedding layer
+
+Positional encoding
+
+Multi-head self-attention
+
+Transformer encoder blocks
+
+Classification head
+
+Implemented in:
+
+Vision Transformers Using Keras.ipynb
+
+Vision Transformers Using PyTorch.ipynb
+
+📊 Training Pipelines
+
+Training notebooks include:
+
+Data preprocessing
+
+Data augmentation
+
+Model definition
+
+Loss & optimizer setup
+
+Training loop
+
+Validation monitoring
+
+Model saving
+
+Files:
+
+Train- Keras.ipynb
+
+Train- Pytorch.ipynb
+
+📈 Evaluation
+
+Comprehensive evaluation metrics include:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-score
+
+ROC-AUC
+
+Log Loss
+
+Confusion Matrix
+
+Classification Report
+
+Evaluation notebook:
+
+CNN-Transformer Integration evaluation- ViT Model Evaluation.ipynb
+
+🔬 Comparative Analysis
+
+The notebook:
+
+Satellite-Image-Classification- Comparative Analysis of Keras and PyTorch Models.ipynb
+
+provides:
+
+Performance comparison between frameworks
+
+CNN vs Transformer analysis
+
+Training time comparison
+
+Metric breakdown
+
+Observations and insights
+
+⚙️ Technologies Used
+
+Python 3.x
+
+TensorFlow / Keras
+
+PyTorch
+
+NumPy
+
+Scikit-learn
+
+Matplotlib / Seaborn
+
+🏗 Model Architecture Summary
+Vision Transformer Pipeline
+Input Image
+   ↓
+Patch Embedding
+   ↓
+Positional Encoding
+   ↓
+Transformer Encoder Blocks
+   ↓
+Classification Head
+   ↓
+Softmax Output
+📦 Installation
+git clone https://github.com/your-username/Satellite-Image-Classification.git
+cd Satellite-Image-Classification
+pip install -r requirements.txt
+
+Or manually install:
+
+pip install tensorflow torch torchvision numpy scikit-learn matplotlib
+▶️ How to Run
+Keras
+
+Open:
+
+Satellite-Image-Classification- Train- Keras.ipynb
+PyTorch
+
+Open:
+
+Satellite-Image-Classification- Train- Pytorch.ipynb
+🎯 Key Contributions
+
+Dual-framework implementation (Keras & PyTorch)
+
+Transformer-based satellite classification
+
+Full evaluation pipeline
+
+Reproducible training workflows
+
+Comparative deep learning study
+
+📌 Future Improvements
+
+Hybrid CNN + ViT architecture
+
+Transfer learning with pretrained ViT
+
+Larger satellite datasets
+
+Model optimization for deployment
